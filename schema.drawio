@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="hkraD6nIDDA4BDQ5-hPR" name="Страница 1">
-        <mxGraphModel dx="550" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="550" dy="185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="Схема программы" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="170" y="40" width="130" height="30" as="geometry"/>
+                    <mxGeometry x="170" y="10" width="130" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="edgeStyle=none;html=1;" parent="1" source="3" edge="1">
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="140" y="120" as="targetPoint"/>
                     </mxGeometry>
@@ -16,7 +16,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="Выбор метода ввода данных в программу" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="175" y="90" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="175" y="110" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -59,7 +59,7 @@
                     <mxGeometry x="175" y="180" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="Ввод элементов массива вручную" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="30" y="90" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="30" y="110" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="24" target="32">
                     <mxGeometry relative="1" as="geometry"/>
@@ -87,11 +87,14 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="34" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="34" value="i ++" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
                     <mxGeometry x="30" y="590" width="120" height="65" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="160" y="585" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="START" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="30" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
